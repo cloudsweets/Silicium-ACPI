@@ -1,23 +1,3 @@
-/*
- * Intel ACPI Component Architecture
- * AML/ASL+ Disassembler version 20200925 (64-bit version)
- * Copyright (c) 2000 - 2020 Intel Corporation
- * 
- * Disassembling to symbolic ASL+ operators
- *
- * Disassembly of DSDT.aml, Sun Nov  9 04:11:51 2025
- *
- * Original Table Header:
- *     Signature        "DSDT"
- *     Length           0x00028040 (163904)
- *     Revision         0x02
- *     Checksum         0x6B
- *     OEM ID           "QCOMM "
- *     OEM Table ID     "SDM7150 "
- *     OEM Revision     0x00000003 (3)
- *     Compiler ID      "MSFT"
- *     Compiler Version 0x05000000 (83886080)
- */
 DefinitionBlock ("", "DSDT", 2, "QCOMM ", "SDM7150 ", 0x00000003)
 {
     External (_BID, UnknownObj)
@@ -29544,7 +29524,7 @@ DefinitionBlock ("", "DSDT", 2, "QCOMM ", "SDM7150 ", 0x00000003)
                 Name (RBUF, ResourceTemplate ()
                 {
                     Memory32Fixed (ReadWrite,
-                        0x97717000,         // Address Base
+                        0x97800000,         // Address Base
                         0x00600000,         // Address Length
                         )
                 })
