@@ -27265,7 +27265,7 @@ DefinitionBlock ("", "DSDT", 2, "QCOMM ", "SDM7150 ", 0x00000003)
             Name (_DEP, Package (0x02)  // _DEP: Dependencies
             {
                 \_SB.PEP0, 
-                \_SB.QGP0
+                \_SB.QGP1
             })
             Name (_CCA, Zero)  // _CCA: Cache Coherency Attribute
             Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
