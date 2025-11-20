@@ -5,11 +5,11 @@
  * 
  * Disassembling to symbolic ASL+ operators
  *
- * Disassembly of DSDT.aml, Thu Nov 20 05:09:21 2025
+ * Disassembly of DSDT.aml, Thu Nov 20 16:29:36 2025
  *
  * Original Table Header:
  *     Signature        "DSDT"
- *     Length           0x000277D9 (161753)
+ *     Length           0x000277CF (161743)
  *     Revision         0x02
  *     Checksum         0x82
  *     OEM ID           "QCOMM "
@@ -27284,8 +27284,7 @@ DefinitionBlock ("", "DSDT", 2, "QCOMM ", "SDM7150 ", 0x00000003)
             Name (_UID, 0x08)  // _UID: Unique ID
             Name (_DEP, Package (0x02)  // _DEP: Dependencies
             {
-                \_SB.PEP0, 
-                \_SB.QGP1
+                \_SB.PEP0
             })
             Name (_CCA, Zero)  // _CCA: Cache Coherency Attribute
             Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
